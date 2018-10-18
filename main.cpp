@@ -28,6 +28,10 @@ public:
 };
 
 int main() {
+    Solution so;
+    string s ="ZY";
+    // expected result for ZY is Z=26, Y=25 then 26*26^1+25*26^0 = 701
+    cout << so.titleToNumber(s) << endl;;
     
     return 0;
 }
